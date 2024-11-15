@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Breed Viewer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1>Cat Breed Viewer</h1>
+        </header>
+
+        
+        <label for="breedSelect">Select a Cat Breed:</label>
+        <select id="breedSelect">
+            <option value="">--Select a breed--</option>
+        </select>
+
+        
+        <div id="progressBarContainer">
+            <div id="progressBar"></div>
+        </div>
+
+        
+        <div id="carousel"></div>
+
+        
+        <div id="infoDump">
+            <h3>Breed Information</h3>
+            <p id="breedDescription">Select a breed to see the details here.</p>
+        </div>
+
+        
+        <button id="getFavouritesBtn">Show My Favorites</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
